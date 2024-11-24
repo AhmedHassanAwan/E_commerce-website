@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Merriweather", serif;
+}
+body{
+    /* background-color: #1a0b4c; */
+    color: #ffff;
+}
+/* navbar start */
+#navbar{
+    background-color: #1a0b4c;
+}
+#logo{
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    /* margin-bottom: 6px; */
+}
+#logo span{
+    color: #ffc800;
+}
+#logo #span1{
+    font-size: 30px;
+}
+
+.navbar-nav{
+    margin-left: 35px;
+}
+.navbar-item{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    color: #fff;
+    text-shadow: 0px 0px 1px black;
+}
+/* .nav-item .nav-link :hover{
+    color:#ffc800;
+    text-shadow: 0px 0px 1px black;
+} */
+.dropdown-menu li a {
+    color: #fff;
+
+}
+.dropdown-menu li a:hover {
+    background-color: #1a0b4c;
+    color: #ffc800;
+}
+#search input {
+    border-radius: 50px;
+    border: none;
+}
+#search button {
+    border-radius: 50px;
+    background-color: #ffc800;
+    color: #fff;
+    border: 1px solid #ffc800;
+}
+
+
+/* navbar end */
+
+/* Styling for the plus-minus buttons */
+.plus-minus-btn {
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plus-minus-btn:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+  }
+  
+  /* Styling for the number display (h2) */
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  /* Styling for the price text */
+  #price {
+    font-size: 30px;
+    color: #28a745; /* Green color for price */
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Flexbox for alignment */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between buttons and number */
+    margin: 10px 0;
+  }
+  
